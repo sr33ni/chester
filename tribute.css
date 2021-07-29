@@ -1,0 +1,54 @@
+
+body{
+  background-color:darkgray;
+}
+
+h1{
+    text-align: center;  
+}
+
+.resize {
+    width: 600px;
+    height: auto;
+    margin-top:5%;
+    margin-bottom: 5%
+    
+}
+.colortyp1{
+        background-color:lightgray;     
+}
+.fontyp1{
+    font-family:Georgia;
+    text-align: right;
+    font-size: 15px;
+}
+.fontyp2{
+    background-color:slategray;
+}  
+.resize1{
+    width: 800px;
+    height:auto;
+}
+.resize3{
+     width: 840px;
+    height:auto;   
+}
+.box{
+    width: auto;
+    height: 110px;
+    background-color: dimgray;
+    text-align: end;
+    margin-top:3%;
+}
+.fontyp3{
+    font-size:24px;
+}
+
+
+
+
+
+
+
+
+
