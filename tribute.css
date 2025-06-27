@@ -44,7 +44,7 @@ h1{
     font-size:24px;
 }
 .hero-img{
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 3.5rem);
     object-fit: cover;
     object-position: top;
 }
