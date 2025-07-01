@@ -99,31 +99,31 @@ It flickers, flickers"
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Essential Meta Tags -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <!-- SEO Title & Description -->
+  <!-- SEO Title & Meta -->
   <title>Chester Bennington – Official Tribute & Biography</title>
-    
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="description" content="Discover the life, music & legacy of Chester Bennington, Linkin Park's frontman. Explore his biography, achievements & quotes.">
 
-  <link href="tribute.css" rel="stylesheet"> 
-  <meta name="description" content="Discover the life, legacy & music of Linkin Park's iconic frontman Chester Bennington. Biography, awards, timeline & memorable quotes.">
-  
-  <!-- Social Sharing Meta (Open Graph / Twitter) -->
-  <meta property="og:title" content="Chester Bennington – Tribute & Biography">
-  <meta property="og:description" content="Honoring Linkin Park’s legendary frontman: life story, career highlights, discography & legacy.">
-  <meta property="og:image" content="https://yourdomain.com/img/linkin-park-lp-alternative-7296.jpg">
-  <meta property="og:type" content="article">
-  
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Chester Bennington – Tribute & Biography">
-  <meta name="twitter:description" content="Explore the life, music, and legacy of Chester Bennington, lead vocalist of Linkin Park.">
-  <meta name="twitter:image" content="https://yourdomain.com/img/linkin-park-lp-alternative-7296.jpg">
+  <!-- Canonical & Robots -->
+  <link rel="canonical" href="https://yourdomain.com/chester-bennington-tribute" />
+  <meta name="robots" content="index, follow">
 
-  <!-- Schema Markup for Person and Music Group -->
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Chester Bennington – Tribute & Biography" />
+  <meta property="og:description" content="Honoring Linkin Park’s frontman: life, music, and legacy." />
+  <meta property="og:image" content="https://yourdomain.com/img/linkin-park-lp-alternative-7296.jpg" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chester Bennington – Tribute & Biography" />
+  <meta name="twitter:description" content="Explore the legacy of Chester Bennington." />
+  <meta name="twitter:image" content="https://yourdomain.com/img/linkin-park-lp-alternative-7296.jpg" />
+
+  <!-- Schema Markup -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -139,13 +139,23 @@ It flickers, flickers"
   }
   </script>
 
-  <!-- Performance: Compressed CSS + Lazy-loaded images -->
-  <link rel="stylesheet" href="styles.min.css">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="tribute.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.min.css" />
+  
+  <!-- Smooth transition for all elements -->
+  <style>
+    * {
+      transition: all 0.3s ease-in-out;
+    }
+  </style>
 </head>
-    <body class="">
+
+<body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light_gray d-flex justify-content-end">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -162,53 +172,55 @@ It flickers, flickers"
 
   <!-- Hero Section -->
   <div class="text-center mb-5">
-    <img src="img/linkin-park-lp-alternative-7296.jpg" class="img-fluid rounded-lg shadow-lg hero-img w-100" alt="Chester Bennington">
-    <h1 class="mt-3"><span>Chester</span> <span>Bennington </span></h1>
-      <h6>(1976–2017)</h6>
+    <img src="img/linkin-park-lp-alternative-7296.jpg" class="img-fluid rounded-lg shadow-lg hero-img w-100" alt="Chester Bennington with Linkin Park">
+    <h1 class="mt-3"><span>Chester</span> <span>Bennington</span></h1>
+    <h6>(1976–2017)</h6>
     <p class="lead font-italic">“May your love never end… There’s a seat here alongside me.”</p>
   </div>
 
-  <!-- Intro Paragraph -->
+  <!-- Intro -->
   <section class="mb-5">
-    <p>Chester Charles Bennington was an American rock icon, best known as the lead singer for Linkin Park and bands like Grey Daze, Dead by Sunrise, and Stone Temple Pilots. With a genre-spanning vocal range and an ability to convey raw emotion, he was recognized as one of the greatest rock vocalists of his generation.</p>
+    <p>Chester Charles Bennington was an American rock icon, best known as the lead singer for Linkin Park, Grey Daze, Dead by Sunrise, and Stone Temple Pilots. His powerful voice and emotional range made him one of the greatest rock vocalists of all time.</p>
   </section>
 
-  <!-- Legacy Component -->
+  <!-- Legacy -->
   <section class="legacy p-4 bg-light rounded-lg shadow-sm mb-5">
     <h2 class="text-center">🎤 Legacy & Achievements</h2>
     <ul>
-      <li><strong>Certifications & Sales:</strong> "Hybrid Theory" (2000) certified Diamond—one of the best-selling debut albums of the decade.</li>
-      <li><strong>Grammy Accolades:</strong> Winner of 2 Grammys with 6 nominations; notably nominated for Best Hard Rock Performance for “What I’ve Done.</li>
-      <li><strong>Genre Innovation:</strong> Pioneered rap-rock fusion and emotional alt-metal, influencing a generation.</li>
-      <li><strong>Tributes & Memorial:</strong> Linkin Park hosted "Celebrate Life" memorial concert (2017), featuring Blink‑182, Korn, No Doubt, Avenged Sevenfold, and more, with proceeds benefiting the One More Light Fund.</li>
+      <li><strong>Certifications:</strong> "Hybrid Theory" (2000) certified Diamond — one of the best-selling debut albums ever.</li>
+      <li><strong>Grammy Wins:</strong> 2 Grammys and 6 nominations; including Best Hard Rock Performance for “What I’ve Done.”</li>
+      <li><strong>Genre Fusion:</strong> Helped define rap-rock and emotional alt-metal.</li>
+      <li><strong>Tributes:</strong> Linkin Park’s "Celebrate Life" concert in 2017 raised funds for mental health awareness.</li>
     </ul>
   </section>
 
-  <!-- Timeline Section -->
+  <!-- Timeline -->
   <section class="timeline mb-5">
     <h2 class="text-center">🎯 Career Timeline</h2>
     <ul>
-      <li>1993 – Began career with Sean Dowdell & His Friends</li>
-      <li>1994–1998 – Lead vocalist of Grey Daze</li>
+      <li>1993 – Started with Sean Dowdell & His Friends</li>
+      <li>1994–1998 – Lead vocals for Grey Daze</li>
       <li>2000 – Joined Linkin Park; released "Hybrid Theory"</li>
       <li>2003 – Won 2 Grammy Awards</li>
-      <li>2005 – Formed Dead by Sunrise</li>
+      <li>2005 – Founded Dead by Sunrise</li>
       <li>2013–2015 – Fronted Stone Temple Pilots</li>
-      <li>2017 – Released "One More Light"; passed away on July 20</li>
+      <li>2017 – Released "One More Light"; passed away July 20</li>
     </ul>
   </section>
 
-  <!-- Enhanced Band Section -->
-  <section class="align-items-center">
+  <!-- Extra Image Section (above footer) -->
+  <div class="row mb-5">
+    <div class="col-md-12 text-center">
+      <img src="img/77-775831_linkin-park-s-chester-bennington-http-chester.jpg" class="img-fluid rounded shadow" alt="Chester Bennington tribute image">
+    </div>
+  </div>
 
-  </section>
-
-  <!-- Tribute Quote -->
+  <!-- Quote -->
   <section class="text-center tribute py-4 mb-5 bg-secondary text-white rounded-lg">
     <p class="mb-0">“If they say Who cares if one more light goes out? In a sky of a million stars It flickers, flickers.”</p>
   </section>
 
-  <!-- Additional Resources / Calls to Action -->
+  <!-- CTA -->
   <section class="text-center mb-4">
     <a class="btn btn-primary mx-2" href="https://open.spotify.com/artist/4P0eS4QK9qeUhqrapGsJKS" target="_blank">Listen on Spotify</a>
     <a class="btn btn-dark mx-2" href="https://www.youtube.com/watch?v=Tm8LGxTLtQk" target="_blank">Watch Tribute Concert</a>
@@ -216,17 +228,11 @@ It flickers, flickers"
 
   <!-- Footer -->
   <footer class="text-center py-3">
-    <small>Page built with ❤️ by a <a href="https://sr33ni.github.io/portfolio/index.html">sreenivas ks</a> paying homage to a rock legend.</small>
+    <small>Page built with ❤️ by <a href="https://sr33ni.github.io/portfolio/index.html" target="_blank">Sreenivas KS</a> in tribute to a legend.</small>
   </footer>
 
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>      
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-- Scripts (cleaned & compressed) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
 
-</html> 
